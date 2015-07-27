@@ -1,0 +1,82 @@
+
+/*  CSS FILE FOR POSITIONS AND MARGINS*/
+
+.header{
+    margin: 0 auto;
+    width: 1394px;
+    height: 810px;
+}
+
+h1 {
+    padding-top: 70px;
+    padding-left: 270px;
+    padding-right: 270px;
+    margin-bottom: 0;
+}
+.principal{
+    margin:0 247px;
+    background-color: #f1f1f1;
+    padding: 70px 95px;
+}
+.content{
+    margin: 0 100px;
+}
+.chapter1 {
+    margin: 0 45px;
+}
+.chapter2{
+    margin-top: 50px;
+}
+p.chapter3{
+    margin-left: 30px;
+}
+p.arrow-section{
+    margin: 0 150px 0 150px;
+    display: inline-block;
+    text-align:center;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.row{
+    padding-bottom: 150px;
+    padding-left: 45px;
+}
+.box{
+    float: left;
+    height: 109px;
+    width: 32%;
+}
+.interior{
+    margin: 10px 40px;
+}
+ul{
+    margin: 75px 30px 55px 65px;
+}
+
+ul li{
+    margin: 10px;
+}
+div.green-final {
+    text-align: center;
+}
+div.highlighting{
+    margin: 0 40px;
+}
+div.final{
+    text-align: center;
+}
+input.formular{
+    width: 785px;
+    height: 75px;
+}
+.button{
+    width: 785px;
+    height: 85px;
+    padding: 0 2px;
+}

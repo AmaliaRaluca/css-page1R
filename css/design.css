@@ -1,0 +1,151 @@
+
+/* CSS FILE FOR STYLE AND FONTS */
+
+.header{
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    color: #ffffff;
+    font-size: 28px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 55px;
+    font-weight: 300;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.34);
+    font-family: "Roboto Slab";
+}
+h2{
+    font-size: 52px;
+    text-align: center;
+    color : black;
+}
+h3{
+    font-size: 26px;
+}
+h4{
+    text-align: center;
+    font-size: 24px;
+}
+
+p.header-content{
+    font-family: "Raleway";
+}
+
+p.header-content :first-child{
+    font-size: 28px;
+}
+
+.header-image{
+    box-shadow: 0 0 27px 0 rgba(0, 0, 0, 0.54);
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+}
+.header-image:hover{
+    filter: grayscale(0%);
+    filter: grayscale(1);
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+}
+.content{
+    background-color: white;
+}
+.p-style{
+    color:#333333;
+    text-align: left;
+    font-size: 18px;
+}
+.p-style p:last-child{
+    border-bottom: 2px #f2f2f2 solid;
+}
+p.chapter1-first-p{
+    text-align: left;
+    font-size: 22px;
+}
+.row{
+    color: white;
+}
+.box{
+    text-align: center;
+}
+.pbox{
+    background-color: #cc3333;;
+    margin: 0 20px 0 0;
+    font-size: 21px;
+}
+.interior{
+    font-size: 18px;
+    text-align: left;
+    color:#666;
+}
+p.chapter3{
+    font-size: 52px;
+    text-align: center;
+    color : black;
+}
+ul {
+    list-style-image: url('../images/check.jpg');
+}
+.green-section{
+    text-align: left;
+    background-color: #c9dcce;
+    font-family: "Raleway";
+}
+p.highlighting{
+    text-align: left;
+    font-size: 18px;
+    color:#666;
+}
+.photo{
+    font-size: 28px;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+}
+div.green-final {
+    background-color: #c9dcce;
+    font-size: 40px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.23);
+}
+p.green-final{
+    font-size: 16px;
+    color:#666;
+}
+p.arrow-section{
+    font-size: 18px;
+    font-style: italic
+}
+
+input.formular{
+    box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.15) inset;
+    border-radius: 6px;
+    font-size: 24px;
+}
+.button{
+    background-color: #366b36;
+    font-size: 28px;
+    color: white;
+    background: #1e5799; /* Old browsers */
+    background: -moz-linear-gradient(top, #397339 0%, #3a753a 0%, #3a743a 9%, #2c592c 94%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #397339), color-stop(0%,#3a753a), color-stop(9%,#3a743a), color-stop(94%,#2c592c)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #397339 0%,#3a753a 0%,#3a743a 9%,#2c592c 94%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #397339 0%,#3a753a 0%,#3a743a 9%,#2c592c 94%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #397339 0%,#3a753a 0%,#3a743a 9%,#2c592c 94%); /* IE10+ */
+    background: linear-gradient(to bottom, #397339 0%,#3a753a 0%,#3a743a 9%,#2c592c 94%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#2c592c',GradientType=0 ); /* IE6-9 */
+
+    border: 1px solid #629162;
+    border-radius: 6px;
+
+    /*-moz-box-shadow:    0px 1px 1px 6px #346234;*/
+    /*-webkit-box-shadow: 0px 1px 1px 6px #346234;*/
+    /*box-shadow:         0px 1px 1px 6px #346234;*/
+
+}
+button:hover {
+    background-color: #cc3333;
+}
+
